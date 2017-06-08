@@ -1,0 +1,8 @@
+(jbuild_version 1)
+
+(library
+ ((name HardCamlLife)
+  (public_name hardcaml-game-of-life)
+  (libraries (hardcaml lwt hardcaml-waveterm))
+  (preprocess (pps (ppx_deriving_hardcaml ppx_deriving_omp)))))
+

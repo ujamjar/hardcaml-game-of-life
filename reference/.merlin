@@ -1,0 +1,22 @@
+B ../../_build/default/hardcaml-game-of-life/reference
+B ../../_build/default/hardcaml-waveterm/src
+B ../../_build/default/hardcaml/src
+FLG -open HardCamlLife -w -40
+FLG -ppx "../../_build/default/.ppx/ppx_deriving_hardcaml+ppx_deriving_omp/ppx.exe --as-ppx --cookie 'library-name="HardCamlLife"'"
+PKG astring
+PKG bigarray
+PKG bytes
+PKG camomile
+PKG dynlink
+PKG lambda-term
+PKG lwt
+PKG lwt.log
+PKG lwt.unix
+PKG lwt_react
+PKG num
+PKG num.core
+PKG react
+PKG result
+PKG unix
+PKG zed
+S .

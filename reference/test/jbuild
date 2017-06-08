@@ -1,0 +1,6 @@
+(jbuild_version 1)
+
+(executables
+ ((names (test testall))
+  (public_names (test testall))
+  (libraries (hardcaml-game-of-life))))
